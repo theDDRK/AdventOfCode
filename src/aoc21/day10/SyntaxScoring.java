@@ -1,4 +1,4 @@
-package day10;
+package aoc21.day10;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -13,7 +13,7 @@ public class SyntaxScoring {
 
     public static void main(String[] args) {
         try {
-            Scanner scanner = new Scanner(new File("src/day10/input.txt"));
+            Scanner scanner = new Scanner(new File("src/aoc21.day10/input.txt"));
             while (scanner.hasNextLine()) {
                 input.add(scanner.nextLine());
             }

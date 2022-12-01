@@ -1,4 +1,4 @@
-package day1;
+package aoc21.day1;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -13,7 +13,7 @@ public class SonarSweep {
         boolean increased;
 
         try {
-            File myObj = new File("src/day1/input.txt");
+            File myObj = new File("src/aoc21.day1/input.txt");
             Scanner myReader = new Scanner(myObj);
 
             current = myReader.nextLine();
@@ -52,7 +52,7 @@ public class SonarSweep {
         boolean increased;
 
         try {
-            File myObj = new File("src/day1/input.txt");
+            File myObj = new File("src/aoc21.day1/input.txt");
             Scanner myReader = new Scanner(myObj);
 
             current = Integer.parseInt(myReader.nextLine());

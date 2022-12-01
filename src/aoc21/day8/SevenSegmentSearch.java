@@ -1,10 +1,7 @@
-package day8;
-
-import day7.Main;
+package aoc21.day8;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.lang.reflect.Array;
 import java.util.*;
 
 public class SevenSegmentSearch {
@@ -13,7 +10,7 @@ public class SevenSegmentSearch {
 
     public static void main(String[] args) {
         try {
-            Scanner scanner = new Scanner(new File("src/day8/exampleinput.txt"));
+            Scanner scanner = new Scanner(new File("src/aoc21.day8/exampleinput.txt"));
             while (scanner.hasNextLine()) {
                 String[] input = scanner.nextLine().split(",");
                 SevenSegmentSearch.input.addAll(Arrays.asList(input));

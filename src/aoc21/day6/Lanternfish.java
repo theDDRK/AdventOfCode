@@ -1,4 +1,4 @@
-package day6;
+package aoc21.day6;
 
 public class Lanternfish {
 

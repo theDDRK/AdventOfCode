@@ -1,10 +1,8 @@
-package day5;
+package aoc21.day5;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
 import java.util.Scanner;
 
 public class HydrothermalVenture {
@@ -13,7 +11,7 @@ public class HydrothermalVenture {
 
     public static void main(String[] args) {
         try {
-            Scanner scanner = new Scanner(new File("src/day5/input.txt"));
+            Scanner scanner = new Scanner(new File("src/aoc21.day5/input.txt"));
             while (scanner.hasNextLine()) {
                 lines.add(scanner.nextLine());
             }

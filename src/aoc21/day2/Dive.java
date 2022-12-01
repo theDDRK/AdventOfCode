@@ -1,4 +1,4 @@
-package day2;
+package aoc21.day2;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -15,7 +15,7 @@ public class Dive {
         int aim = 0;
 
         try {
-            Scanner scanner = new Scanner(new File("src/day2/input.txt"));
+            Scanner scanner = new Scanner(new File("src/aoc21.day2/input.txt"));
             while (scanner.hasNextLine()) {
                 course.add(scanner.nextLine());
             }

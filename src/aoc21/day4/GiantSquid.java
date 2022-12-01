@@ -1,4 +1,4 @@
-package day4;
+package aoc21.day4;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -12,7 +12,7 @@ public class GiantSquid {
 
     public static void main(String[] args) {
         try {
-            Scanner scanner = new Scanner(new File("src/day4/input.txt"));
+            Scanner scanner = new Scanner(new File("src/aoc21.day4/input.txt"));
             while (scanner.hasNextLine()) {
                 input.add(scanner.nextLine());
             }

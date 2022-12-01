@@ -1,4 +1,4 @@
-package day6;
+package aoc21.day6;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -26,7 +26,7 @@ public class Main {
 
     public static void main(String[] args) {
         try {
-            Scanner scanner = new Scanner(new File("src/day6/input.txt"));
+            Scanner scanner = new Scanner(new File("src/aoc21.day6/input.txt"));
             while (scanner.hasNextLine()) {
                 Main.input = scanner.nextLine().split(",");
                 System.out.println(Arrays.toString(input));

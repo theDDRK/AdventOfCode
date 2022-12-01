@@ -1,4 +1,4 @@
-package day9;
+package aoc21.day9;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -12,7 +12,7 @@ public class SmokeBasin {
 
     public static void main(String[] args) {
         try {
-            Scanner scanner = new Scanner(new File("src/day9/exampleinput.txt"));
+            Scanner scanner = new Scanner(new File("src/aoc21.day9/exampleinput.txt"));
             int y = 0;
             int x = 0;
             while (scanner.hasNextLine()) {
