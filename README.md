@@ -1,6 +1,6 @@
 # AdventOfCode
 
-##2021
+## 2021
 - 1  :star::star:
 - 2  :star::star:
 - 3  :star::star:
@@ -12,5 +12,5 @@
 - 9  :star:
 - 10 :star::star:
 
-##2022
+## 2022
 - 1  :star::star:
